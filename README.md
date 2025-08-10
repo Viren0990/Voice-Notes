@@ -2,7 +2,7 @@
 
 Voice-Notes is a lightweight, browser-based speech recognition app that converts spoken words into text in **real-time**. Built with **Next.js**, **TypeScript**, and the **Web Speech API**, it supports continuous recognition, interim result streaming, and robust error handling. Perfect for voice-enabled note-taking and hands-free interactions.
 
----
+----
 
 ## 🚀 Features
 - Real-time speech-to-text conversion using the Web Speech API
