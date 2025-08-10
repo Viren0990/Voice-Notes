@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎤 Voice-Notes
 
-## Getting Started
+Voice-Notes is a lightweight, browser-based speech recognition app that converts spoken words into text in **real-time**. Built with **Next.js**, **TypeScript**, and the **Web Speech API**, it supports continuous recognition, interim result streaming, and robust error handling. Perfect for voice-enabled note-taking and hands-free interactions.
 
-First, run the development server:
+---
+
+## 🚀 Features
+- Real-time speech-to-text conversion using the Web Speech API
+- Continuous recognition with interim results
+- Robust error handling
+- Voice-enabled note-taking
+- Hands-free user interactions
+- Multi-language recognition support
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** Next.js, TypeScript, Tailwind CSS  
+- **Speech Recognition:** Web Speech API  
+- **Backend:** Express.js  
+- **Real-time Processing:** WebSockets (optional for syncing with server)  
+
+---
+
+## 📦 Installation & Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/yourusername/voice-notes.git
+cd voice-notes
+
+# Install all dependencies
+npm install 
+
+
+
+# Start project
+ npm run dev
+
+
+
+# 📸 Screenshots
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Signin Page
+![Recipoo Signin Page](SC/Signin.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Home Page
+![Recipoo Home Page](SC/Home.png)
+![Recipoo Home Page](SC/Home2.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Create My-Notes Page
+![Recipoo Home Page](SC/myNotes.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
